@@ -1,0 +1,43 @@
+body {
+  overflow-y: scroll;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.lyrics-box {
+  border: 1px solid #dadada;
+}
+.list-item{
+  border-radius: 4px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.list-item .list-link{
+  display: inline-block;
+  vertical-align: top;
+  color: #6b446d;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  transition: all 0.3s;
+}
+.list-item .list-link:hover{
+  background-color: #6d506e81;
+  color: #fff;
+}
+.list-item .list-link.active{
+  background-color: #6b446d;
+  color: #fff;
+}
+#lyrics-panel{
+  color: #6b446d;
+}
+#lyrics-panel .lyrics-title{
+  margin-bottom: 20px;
+}
+#lyrics-panel .lyrics-content{
+  font-family: '微軟正黑體';
+  line-height: 24px;
+}
